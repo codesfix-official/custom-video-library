@@ -1,6 +1,6 @@
 # Custom Video Library
 
-A Netflix-styled content library plugin for WordPress supporting both video and audio, with flexible WooCommerce monetization.
+A content library plugin for WordPress supporting both video and audio, with flexible WooCommerce monetization.
 
 ## Features
 
