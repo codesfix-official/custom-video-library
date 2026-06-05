@@ -1,0 +1,31 @@
+{
+  "name": "custom-video-library/custom-video-library",
+  "description": "Netflix-styled video library WordPress plugin with WooCommerce monetization",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Your Company",
+      "email": "hello@yoursite.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.0",
+    "phpstan/extension-installer": "^1.3",
+    "phpstan/phpstan-strict-rules": "^1.0",
+    "wpengine/phpstan-wordpress": "^1.0",
+    "wp-coding-standards/wpcs": "^3.0",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "CustomVideoLibrary\\": "includes/"
+    },
+    "files": [
+      "includes/helpers.php"
+    ]
+  }
+}

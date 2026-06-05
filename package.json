@@ -1,0 +1,29 @@
+{
+  "name": "custom-video-library",
+  "version": "1.0.0",
+  "description": "Netflix-styled video library WordPress plugin with WooCommerce monetization",
+  "main": "custom-video-library.php",
+  "scripts": {
+    "lint": "npm run phpcs",
+    "phpcs": "phpcs --standard=phpcs.xml.dist",
+    "phpcs:fix": "phpcbf --standard=phpcs.xml.dist",
+    "phpstan": "phpstan analyze --neon=phpstan.neon.dist",
+    "test": "npm run lint && npm run phpstan"
+  },
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^16.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-wordpress": "^7.0.0"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "video",
+    "library",
+    "woocommerce",
+    "subscription",
+    "monetization"
+  ],
+  "author": "Your Company",
+  "license": "GPL-2.0-or-later"
+}

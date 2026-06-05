@@ -1,0 +1,111 @@
+/* Custom Video Library - Admin Styles */
+
+.cvl-admin-container {
+	max-width: 1200px;
+	margin: 20px 0;
+}
+
+.cvl-settings-form {
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 20px;
+}
+
+.cvl-settings-form table {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.cvl-settings-form th {
+	text-align: left;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+	font-weight: 600;
+	background-color: #f9f9f9;
+}
+
+.cvl-settings-form td {
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.cvl-settings-form input[type="text"],
+.cvl-settings-form input[type="email"],
+.cvl-settings-form input[type="number"],
+.cvl-settings-form select,
+.cvl-settings-form textarea {
+	width: 100%;
+	max-width: 500px;
+	padding: 8px 12px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-family: inherit;
+}
+
+.cvl-settings-form textarea {
+	resize: vertical;
+	min-height: 100px;
+}
+
+.cvl-analytics-card {
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.cvl-analytics-card h3 {
+	margin-top: 0;
+	color: #333;
+}
+
+.cvl-stat-group {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+	margin-top: 20px;
+}
+
+.cvl-stat-box {
+	background-color: #f9f9f9;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	padding: 15px;
+	text-align: center;
+}
+
+.cvl-stat-value {
+	font-size: 32px;
+	font-weight: 700;
+	color: #e50914;
+	margin: 0;
+}
+
+.cvl-stat-label {
+	font-size: 12px;
+	color: #666;
+	margin-top: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.cvl-notice {
+	padding: 12px 20px;
+	margin: 10px 0;
+	border-left: 4px solid #0073aa;
+	background-color: #f0f7ff;
+	color: #333;
+	border-radius: 2px;
+}
+
+.cvl-notice.error {
+	border-left-color: #d63638;
+	background-color: #fef5f5;
+}
+
+.cvl-notice.success {
+	border-left-color: #00a32a;
+	background-color: #f0f7f0;
+}
